@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# set-up your work environment
+
+sudo pip3 install sqlalchemy
+sudo pip3 apt-get install python-mysqldb
+sudo pip3 install Flask
+
+# for install a validator command
+# git clone https://github.com/holbertonschool/W3C-Validator.git
+# ./w3c_validator.py index.html
