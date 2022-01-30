@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # set-up your work environment
 
+sudo apt update
+sudo apt install mysql-server
 sudo pip3 install sqlalchemy
 sudo pip3 apt-get install python-mysqldb
 sudo pip3 install Flask
