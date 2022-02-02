@@ -2,7 +2,9 @@
 # set-up your work environment
 
 sudo apt update
-sudo apt install mysql-server
+# not more available: (replaced with mariadb-server)
+# sudo apt install mysql-server
+sudo apt install mariadb-server
 sudo pip3 install sqlalchemy
 sudo pip3 apt-get install python-mysqldb
 sudo pip3 install Flask
