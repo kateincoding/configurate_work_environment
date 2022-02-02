@@ -1,0 +1,7 @@
+#!/usr/bin/env bash                                              
+# pu
+
+sudo apt-get remove mariadb-server
+sudo apt-get autoremove mariadb-server
+sudo apt-get purge mariadb-server
+sudo apt-get autoremove --purge mariadb-server
