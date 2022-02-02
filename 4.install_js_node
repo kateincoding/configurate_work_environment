@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# set-up your work environment
+
+
+# install node
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# install semi-standard
+sudo apt-get install npm
+sudo npm install semistandard --global
+
+# install request
+sudo npm install request --global
+export NODE_PATH=/usr/lib/node_modules
